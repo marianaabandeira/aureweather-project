@@ -1,7 +1,20 @@
-.git
-node_modules
-coverage
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Testes
+coverage/
+
+# Sistema
 .DS_Store
+Thumbs.db
+
+# Ambiente
 .env
-*.log
-dist
+.env.local

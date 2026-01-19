@@ -4,19 +4,22 @@ Um aplicativo web simples e elegante para consultar o clima de qualquer cidade u
 
 ## 📋 Características
 
-- ✨ Interface moderna e responsiva
-- 🌍 Busca de clima por nome de cidade
-- 🚀 Sem dependências externas no frontend
-- 🧪 Testes unitários com Jest
-- 📱 Design mobile-first
-- ⚡ Carregamento rápido
+- ✨ Interface moderna, limpa e responsiva
+- 🌍 Busca de clima por nome da cidade
+- 🚀 Frontend em JavaScript puro (sem frameworks pesados)
+- 🧪 Testes unitários com Jest para garantir qualidade
+- 📱 Design mobile-first, pensado para celular
+- ⚡ Carregamento rápido e código leve
+- 🌙 Dark mode e Light mode
+- 📆 Previsão da semana integrada
+- 🛡️ Tratamento de erros e validações de entrada
 
 ## 🛠️ Tecnologias
 
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **API**: Open-Meteo (API gratuita de clima)
-- **Testes**: Jest
-- **Formatação**: Prettier
+- **Testes**: Jest para testes unitários
+- **Formatação**: Prettier para padronização de código
 
 ## 📁 Estrutura do Projeto
 
@@ -75,14 +78,7 @@ npm run test:watch
 1. Digite o nome da cidade no campo de entrada
 2. Pressione Enter ou clique no botão "Buscar"
 3. Veja a temperatura, descrição do clima e velocidade do vento
-
-### Cidades Padrão
-
-Clique nos botões de atalho para cidades populares:
-- São Paulo
-- Recife
-- Rio de Janeiro
-- Brasília
+   
 
 ## 🔌 API Open-Meteo
 
@@ -100,21 +96,23 @@ A aplicação utiliza dois endpoints gratuitos:
 
 ## 🎯 Próximas Funcionalidades
 
-- [ ] Previsão de 7 dias
-- [ ] Salvar cidades favoritas (localStorage)
-- [ ] Dark mode
+- [ ] Histórico de buscas recentes
+- [ ] Comparar clima entre duas cidades
+- [ ] Mostrar sensação térmica
 - [ ] Localização automática do usuário
-- [ ] Notificações de alerta climático
-- [ ] Integração com Service Workers (PWA)
+- [ ] Compartilhar previsão nas redes
 
 ## 📝 Licença
 
 MIT
 
-## 👤 Autor
+## 👩‍💻 Desenvolvedora
 
-[Seu Nome Aqui]
+Mariana Badeira Santos
+  
+  **Github: [https://github.com/marianaabandeira)**
+  
+  **Linkedin: [https://www.linkedin.com/in/marianaabandeira/)**
 
 ---
-
-**Dica**: Esta estrutura é escalável! Você pode adicionar novos módulos em `src/js/` conforme a aplicação cresce.
+📌 Projeto desenvolvido como parte do portfólio técnico, focado em consumo de API de clima, organização de código, testes unitários e construção de uma interface simples, moderna e funcional.
