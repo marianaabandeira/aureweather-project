@@ -1,31 +1,39 @@
 # 🌤️ AuréWeather
 
-Um aplicativo web simples e elegante para consultar o clima de qualquer cidade usando a API Open-Meteo.
+Aplicação web desenvolvida para consulta de **clima e previsão do tempo** de qualquer cidade, utilizando a **API Open-Meteo**.
 
-## 📋 Características
+O projeto foi construído com foco em **JavaScript puro (Vanilla JS)**, priorizando **performance**, **código limpo**, **responsividade** e **boa experiência do usuário**, sem o uso de frameworks pesados.
 
-- ✨ Interface moderna, limpa e responsiva
-- 🌍 Busca de clima por nome da cidade
-- 🚀 Frontend em JavaScript puro (sem frameworks pesados)
-- 🧪 Testes unitários com Jest para garantir qualidade
-- 📱 Design mobile-first, pensado para celular
-- ⚡ Carregamento rápido e código leve
-- 🌙 Dark mode e Light mode
-- 📆 Previsão da semana integrada
-- 🛡️ Tratamento de erros e validações de entrada
+---
 
-## 🛠️ Tecnologias
+## ✨ Características
 
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
-- **API**: Open-Meteo (API gratuita de clima)
-- **Testes**: Jest para testes unitários
-- **Formatação**: Prettier para padronização de código
+- Interface moderna, limpa e responsiva
+- Busca de clima por nome da cidade
+- Previsão do tempo para a semana
+- Dark mode e Light mode
+- Design **mobile-first**
+- Código leve e carregamento rápido
+- Tratamento de erros e validações de entrada
+- Testes unitários para garantir qualidade
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+- **API:** Open-Meteo (API gratuita de clima)
+- **Testes:** Jest
+- **Formatação:** Prettier
+- **Versionamento:** Git & GitHub
+
+---
 
 ## 📁 Estrutura do Projeto
 
 ```
 aplicativo-clima/
-├── public/              # Arquivos HTML e CSS
+├── public/             # Arquivos HTML e CSS
 │   └── index.html      # Página principal
 ├── src/js/
 │   ├── api/            # Integração com Open-Meteo
@@ -37,17 +45,21 @@ aplicativo-clima/
 └── README.md
 ```
 
-## 🚀 Como Usar
+## 🚀 Como Executar o Projeto
 
-### 1. Instalar dependências
+### Pré-requisitos
+- Node.js
+- NPM
 
+---
+
+### 1️⃣ Instalar dependências:
 ```bash
 npm install
 ```
 
-### 2. Rodando a aplicação
-
-#### Opção 1: Com Node.js (Recomendado)
+### 2️⃣ Executar a aplicação:
+#### Opção 1 — Com Node.js (recomendado)
 
 ```bash
 node server.js
@@ -55,11 +67,11 @@ node server.js
 
 Acesse: `http://localhost:8000`
 
-#### Opção 2: Abrir direto no navegador
+#### Opção 2 — Diretamente no navegador
+Abra o arquivo:
+ `public/index.html`.
 
-Simplesmente abra o arquivo `public/index.html` no seu navegador.
-
-### 3. Rodando os testes
+### 3️⃣ Executar os testes
 
 ```bash
 npm test
@@ -71,18 +83,22 @@ Para modo watch (testes reexecutam ao salvar):
 npm run test:watch
 ```
 
+
 ## 📖 Funcionalidades
 
-### Buscar por Cidade
-
-1. Digite o nome da cidade no campo de entrada
-2. Pressione Enter ou clique no botão "Buscar"
-3. Veja a temperatura, descrição do clima e velocidade do vento
+### 🔍 Busca por cidade
+- Digite o nome da cidade
+- Pressione **Enter** ou clique em **Buscar**
+- Visualize:
+  - **Temperatura**
+  - **Condições climáticas**
+  - **Velocidade do vento**
+  - **Previsão semanal**
    
 
 ## 🔌 API Open-Meteo
 
-A aplicação utiliza dois endpoints gratuitos:
+O projeto utiliza endpoints gratuitos da Open-Meteo:
 
 1. **Geocoding API**: Converte nome de cidade em coordenadas
    ```
@@ -94,25 +110,28 @@ A aplicação utiliza dois endpoints gratuitos:
    https://api.open-meteo.com/v1/forecast
    ```
 
-## 🎯 Próximas Funcionalidades
+## 🎯 Próximas Funcionalidades (Ideias)
 
-- [ ] Histórico de buscas recentes
-- [ ] Comparar clima entre duas cidades
-- [ ] Mostrar sensação térmica
-- [ ] Localização automática do usuário
-- [ ] Compartilhar previsão nas redes
+- Histórico de buscas recentes
+- Comparação de clima entre cidades
+- Exibição de sensação térmica
+- Localização automática do usuário
+- Compartilhamento da previsão
+
+---
 
 ## 📝 Licença
 
 MIT
 
+---
+
 ## 👩‍💻 Desenvolvedora
 
-Mariana Badeira Santos
-  
-  **Github: [https://github.com/marianaabandeira)**
-  
-  **Linkedin: [https://www.linkedin.com/in/marianaabandeira/)**
+**Mariana Bandeira Santos**
+
+- [GitHub](https://github.com/marianaabandeira)
+- [LinkedIn](https://www.linkedin.com/in/marianaabandeira/)
 
 ---
-📌 Projeto desenvolvido como parte do portfólio técnico, focado em consumo de API de clima, organização de código, testes unitários e construção de uma interface simples, moderna e funcional.
+📌 Projeto desenvolvido como parte do portfólio técnico, com foco em consumo de API, JavaScript puro, testes unitários e construção de uma interface simples, moderna e funcional.
