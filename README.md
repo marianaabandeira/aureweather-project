@@ -68,8 +68,7 @@ node server.js
 Acesse: `http://localhost:8000`
 
 #### Opção 2 — Diretamente no navegador
-Abra o arquivo:
- `public/index.html`.
+Abra o arquivo `public/index.html`.
 
 ### 3️⃣ Executar os testes
 
